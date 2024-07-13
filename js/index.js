@@ -13,7 +13,7 @@ let contadorIDfotos = tomarIdProximaFoto();
 btnTomarFoto.addEventListener("click", ()=>{
     let canvas = document.createElement("canvas");
     canvas.width = videoElemento.videoWidth;
-    canvas.height = videoElemento.videoHeigth;
+    canvas.height = videoElemento.videoHeight;
 
     const contexto = canvas.getContext("2d"); //Context es una propiedad de los canvas
 
@@ -24,7 +24,7 @@ btnTomarFoto.addEventListener("click", ()=>{
     galeriaFotos.appendChild(canvas);
 
     //Convertimos el canvas a Base64
-    
+
 
 
 });
