@@ -1,0 +1,46 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.centrado{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-centrado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 25px;
+}
+
+.contenedor-centrado button{
+    margin-top: 10px;
+}
+
+.contenedor-fotos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.contenedor-fotos img{
+    width: 300px;
+    border-radius: 10%;
+}
+
+.contenedor-fotos button{
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.photo-container{
+    display: flex;
+    flex-direction: column;
+    border: 3px dotted black;
+}

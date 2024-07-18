@@ -9,15 +9,20 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <h2>Foto matón</h2>
-    <video id="camara" autoplay playinline></video>
-    <p>
-        <button id="tomarFoto">Tomar foto</button>
-        <button id="borrarTodo">Borrar todo</button>
-    </p>
-
-    <h2>Galería de fotos</h2>
-    <div id="galeria"></div>
+    <div class="contenedor-centrado">
+        <h2>Foto matón</h2>
+        <video id="camara" autoplay playinline></video>
+        <p class="pBotones">
+            <button id="tomarFoto">Tomar foto</button>
+            <button id="borrarTodo">Borrar todo</button>
+        </p>
+    </div>
+    
+    <div class="contenedor-centrado">
+        <h2>Galería de fotos</h2>
+    </div>
+    
+    <div id="galeria" class="contenedor-fotos"></div>
 
 
     <script src="js/index.js"></script>

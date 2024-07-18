@@ -38,6 +38,7 @@ function guardarFoto(photo, isPhotoLoad=false){ //El isPhotoLoad lo ponemos en F
     //Creamos el contenedor/div para la foto
     let photoContainer = document.createElement("div");
     photoContainer.className = "photo-container";
+    // photoContainer.className = "col-3";
     photoContainer.dataset.id = photo.id;
 
     //Crear la imagen
